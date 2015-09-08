@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "umd",
+        "noImplicitAny": true,
+        "jsx": "react",
+        "experimentalDecorators": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./bootstrap.ts",
+        "./Main/main.tsx",
+        "./Main/todoItem.tsx"
+    ]
+}
